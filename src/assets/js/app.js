@@ -1,1 +1,24 @@
-console.log('file 1');
+// const { active } = require("browser-sync");
+
+// function burgerMenu() {
+//     const burger = document.querySelector('.burger');
+//     const  menu = document.querySelector('.menu');
+//     const body = document.querySelector('body');
+
+//     burger.addEventListener('click', ()=> {
+//        if(menu.classList.add('active')) {
+//             burger.classList.add('active-burger');
+//         body.classList.add('locked');
+//        } else {
+//            menu.classList.remove(active);
+//            burger.classList.remove(active-burger);
+
+
+//     }
+   
+
+//     }
+    
+//     )
+
+// }

@@ -1,10 +1,23 @@
 .header {
-    width: calc(100% - #{$sidebar-width});
-    height: 30px;
-    background-color: #444;
+    display: flex;
     position: fixed;
+    width: calc(100% - #{$sidebar-width});
+    background-color: $primary;
     top: 0;
-    right: 0;
+    left: 300px;
     z-index: $z-index-header;
-
+   
+}
+.header_left {
+    width: 60%;
+    &:a {
+        text-decoration: none;
+        color: $white;
+        position: relative;
+    }
+}
+.header_right {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
 }

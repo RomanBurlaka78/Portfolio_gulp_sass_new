@@ -1,0 +1,50 @@
+.nav_list {
+    display: flex;
+
+   
+
+}
+
+.nav_link {
+    display: block;
+    padding: 1.35rem;
+    color: $white;
+    left: 1.2;
+   
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+        background-color: $blue;
+        transition: background-color 0.2, linear;
+    }
+  
+
+}
+
+.burger_menu {
+    font-size: 33;
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    &:hover {
+        color: red;
+    }
+
+   
+}
+
+@media screen and (max-width:999px) {
+    .burger_menu{
+        display: block;
+     
+    }
+    
+
+    
+}
+
+
