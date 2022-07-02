@@ -1,5 +1,29 @@
 .main {
-    padding-top: 10rem;
+    padding: 10rem 0 8rem $sidebar-width;
     padding-left: $sidebar-width;
 
+}
+
+@media (max-width: 950px) {
+    .main {
+       padding:  0 20px ; 
+       margin: 30px auto;
+    }
+    .sidebar {
+        display: none;
+    } 
+    
+}
+@media (max-width: 768px) {
+    .main {
+       padding:  0 20px ; 
+       margin: 30px auto;
+    } 
+    .sidebar {
+        display: none;
+    }
+    .header {
+        display: none;
+    }
+    
 }

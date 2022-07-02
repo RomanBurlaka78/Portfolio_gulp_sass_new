@@ -1,0 +1,29 @@
+.page_navigation {
+    margin: 8rem  auto 0 ;
+    width: 240px;
+    height: 40px;
+    
+  
+}
+.pagination {
+    
+    display: block;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.page-item {
+    list-style: none;
+    
+}
+.page-link {
+    background-color: #0D0D0D;
+    color: white;
+    text-decoration: none;
+    padding: .9rem 1.5rem;
+    border-radius: 5px ;
+   
+
+}
