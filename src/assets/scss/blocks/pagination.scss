@@ -19,11 +19,26 @@
     
 }
 .page-link {
+    font-size: 1.4rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     background-color: #0D0D0D;
     color: white;
     text-decoration: none;
     padding: .9rem 1.5rem;
     border-radius: 5px ;
+    transition: background-color .2s linear;
+    box-shadow: 0 0 10px 
+    rgba(black, .15) ;
+    &:hover {
+        background-color: lighten(#0D0D0D, 2%);
+    }
+    &.active {
+        background-color: $blue;
+        box-shadow: 0 0 10px 
+        rgba($blue, .15) ;
+    }
    
 
 }
