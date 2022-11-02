@@ -7,7 +7,7 @@
     overflow: hidden;
    
 }
-.post_header {
+.post__header {
     margin: 0 0 2.5rem;
     position: relative;
     &--preview{
@@ -16,7 +16,7 @@
     }
 }
 
-.post_header--preview {
+.post__header--preview {
     display: block;
     max-width: 100%;
     height: auto;
@@ -24,7 +24,7 @@
     // border-radius: 5px;
 
 }
-.post_text {
+.post__text {
     color: #d2d2d2;
     font-size: 14px;
     border-bottom: 1px solid #1c1c1c;
@@ -35,7 +35,7 @@
     }
  
 }
-.post_data {
+.post__data {
     display: flex;
     color: #828282;
     line-height: 1.2rem;
@@ -47,13 +47,13 @@
 
 }
 
-.post_content {
+.post__content {
     position: relative;
     margin-bottom: 2rem;
     border-bottom: 1px solid #1c1c1c;
 }
 
-.post_title {
+.post__title {
     font-size:1.8rem ;
     color: white;
     font-weight: 500;
@@ -61,7 +61,7 @@
  
    
 }
-.post_data-item {
+.post__data-item {
     time:hover {
         text-decoration: underline;
     }
@@ -82,11 +82,11 @@
     }
 }
 
-.post_data-item_link:hover {
+.post__data-item_link:hover {
     text-decoration: underline;
   
 }
-.post_read {
+.post__read {
     color: #107eff;
    font-size: 1.4rem;
    text-decoration: none;
@@ -97,7 +97,7 @@
 }
 
 
-.post_footer {
+.post__footer {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -117,7 +117,7 @@
 //     top: 38%;
     
 // }
-.post_actions {
+.post__actions {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5rem;
@@ -125,7 +125,7 @@
     color: $white;
     
     a {
-        color: #fff;
+        color: $white;
         padding: 1rem 0;
         opacity: .7;
         transition: opacity .2s linear;
@@ -138,10 +138,10 @@
 
 }
 
-.post_actions-icon {
+.post__actions-icon {
     margin-left: .5rem;
 }
-.post_between_lines  {
+.post__between_lines  {
     margin-bottom: 2rem;
     & h3{
         padding: 1rem 0;
@@ -150,7 +150,7 @@
 
 .post__subtitle {
         font-size: 1.6rem;
-        color: #fff;
+        color: $white;
         font-weight: 500;
         margin-bottom: 2rem;
 
