@@ -2,7 +2,6 @@
 .btn {
     width: 12rem;
     height: 3rem;
-   
     vertical-align: top;
     padding: .7em 2.1em;
     border-radius: 3em;
@@ -31,6 +30,12 @@
         &:hover {
             background-color: darken($blue, 15%);
         }
+    }
+    &--rounded {
+        border-radius: 5px;
+    }
+    &--sm {
+        padding:0.66em 1.25em ;
     }
 
 

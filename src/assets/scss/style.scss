@@ -1,5 +1,23 @@
-@import "vars";
 @import "vendor/reset";
+@import "vars";
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/sidebar";
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/profile";
+@import "blocks/social";
+@import "blocks/btn";
+@import "blocks/nav";
+@import "blocks/search";
+@import "blocks/stories";
+@import "blocks/add-post";
+@import "blocks/post";
+@import "blocks/pagination";
+@import "blocks/embed";
+@import "blocks/releted";
+@import "blocks/comments";
+@import "blocks/form";
 html{
     font-size: 62.5%;
   
@@ -17,21 +35,13 @@ body {
 *:after {
     box-sizing: border-box;
 }
-@import "blocks/page";
-@import "blocks/header";
-@import "blocks/sidebar";
-@import "blocks/main";
-@import "blocks/container";
-@import "blocks/profile";
-@import "blocks/social";
-@import "blocks/btn";
-@import "blocks/nav";
-@import "blocks/search";
-@import "blocks/stories";
-@import "blocks/add-post";
-@import "blocks/post";
-@import "blocks/pagination";
-@import "blocks/embed";
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 
 
 

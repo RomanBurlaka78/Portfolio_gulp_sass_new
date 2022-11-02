@@ -1,0 +1,60 @@
+.comments {
+    margin-top: 5rem;
+
+    &__item {
+        margin-bottom: 3rem;
+        >.comments {
+            padding-left: 3rem ;
+            margin-top: 3rem;
+        }
+    }
+ 
+
+    &__header {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
+
+    }
+    &__avatar {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+    }
+    &__auther {
+        flex-grow: 1;
+        padding-left: 1.5rem;
+        line-height: 1.2;
+    }
+    &__name {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color:$white ;
+
+    }
+    &__pubdate {
+        color: #757575;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        color: $white;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+
+    }
+    &__reply {
+        color: $blue;
+        font-family: inherit;
+        font-size: 1.1rem;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+ 
+}

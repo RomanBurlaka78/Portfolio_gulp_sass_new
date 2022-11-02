@@ -27,11 +27,12 @@
 .post_text {
     color: #d2d2d2;
     font-size: 14px;
+    border-bottom: 1px solid #1c1c1c;
+    padding-bottom: 1rem;
     
     p {
         margin: 2rem 0;
     }
-
  
 }
 .post_data {
@@ -40,8 +41,6 @@
     line-height: 1.2rem;
     margin: 1rem 0;
     a {
-        color: inherit;
-        text-decoration: none;
         padding-left: 1rem;
     }
    
@@ -59,13 +58,8 @@
     color: white;
     font-weight: 500;
     margin-bottom: 1.5rem;
-      a {
-          color: inherit;
-          text-decoration: none;
-      }
-      &:hover {
-          text-decoration: underline;
-      }
+ 
+   
 }
 .post_data-item {
     time:hover {
@@ -131,15 +125,12 @@
     color: $white;
     
     a {
-        text-decoration: none;
-        color: inherit;
+        color: #fff;
         padding: 1rem 0;
         opacity: .7;
         transition: opacity .2s linear;
-       
 
         &:hover {
-            text-decoration: underline;
             opacity: 1;
         }
     }
@@ -150,3 +141,24 @@
 .post_actions-icon {
     margin-left: .5rem;
 }
+.post_between_lines  {
+    margin-bottom: 2rem;
+    & h3{
+        padding: 1rem 0;
+    }
+} 
+
+.post__subtitle {
+        font-size: 1.6rem;
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 2rem;
+
+}
+.post__comments {
+    margin-top: 3rem;
+
+
+
+}
+

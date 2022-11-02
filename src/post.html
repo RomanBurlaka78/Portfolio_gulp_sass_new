@@ -13,22 +13,18 @@ title: Post
     <div class="post_header post_header--open">
         <h1 class="post_title"><a href="#">How to create site</a> </h1>
            <ul class="post_data">
-            
-                <li class="post_data-item">
-                    
+                <li class="post_data-item">  
                     <time datetime="2020-06-21 19.00">21.06.2020 </time>
                 </li>
-
                 </li class="post_data-item">
                 <a class="post_data-item_link" href="#">Making website</a>
                 <li>
-
             </ul>
 
     </div>
             
     <div class="post_content">
-        <h2>Title h2</h2>
+        <h2>New post</h2>
         <div class="post_text"> 
          <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe doloremque ipsum similique voluptatum, in nulla facere praesentium exercitationem aliquam illo laborum eaque itaque fuga sit non ab culpa doloribus natus reprehenderit, ipsam officiis provident dolores esse. Corporis rem maiores perspiciatis, quasi quisquam sit tenetur a veniam neque tempora nam voluptas vero unde quaerat eligendi quod. Neque necessitatibus natus vero assumenda.
@@ -38,11 +34,12 @@ title: Post
 
         </p>
         <h4>Title</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quaerat, culpa aspernatur, quasi quisquam a ab quos facere quia commodi veniam? Delectus laboriosam repudiandae nesciunt architecto laborum ullam impedit ad perspiciatis praesentium! Adipisci, omnis voluptatem doloribus perferendis facilis id dicta aliquid facere nulla voluptatibus beatae. Esse deserunt rem quos soluta saepe minima, sint repellendus. Porro, esse!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quaerat, culpa aspernatur, quasi quisquam a ab quos facere quia commodi veniam? Delectus laboriosam repudiandae nesciunt architecto laborum ullam impedit ad perspiciatis praesentium! Adipisci, omnis voluptatem doloribus perferendis facilis id dicta aliquid facere nulla voluptatibus beatae. Esse deserunt rem quos soluta saepe minima, sint repellendus. Porro, esse!
+        </p>
       
         
         <img class="post_header--preview" src="./assets/images/image_post.jpg" alt="">
-
+        </div>
 
         <div class="post_text">
             <p>
@@ -53,25 +50,125 @@ title: Post
 
     </div>
    
-    <div class="post_between_lines">
-
-        <h3>Intresting to read</h3>
-
+    <div class="post_between_lines ">
+        <h3>Intresting to learn..</h3>
         <div class="post_between_lines_content">
-            <div class="short_post">
-                <a href="">1</a>    
+            <div class="short__post">
+                <a href="https://blog.openreplay.com/javascript-s-this-keyword-explained-and-demystified-xxxxxx">learn about JS.. </a>    
             </div>
-            <div class="short_post">
-                <a href="">2</a>
+            <div class="short__post">
+                <a href="https://javascript.plainenglish.io/11-cool-chrome-devtools-tips-and-tricks-i-wish-i-knew-already-a9e2e078f78">11 Cool Chrome Devtools Tips</a>
             </div>
-            <div class="short_post">
-                <a href="">3</a>
+            <div class="short__post">
+                <a href="https://tympanus.net/codrops/2022/09/07/3d-perspective-glitch-hover-effect/">3D Perspective Glitch Hover Effect</a>
             </div>
-            <div class="short_post">
-                <a href="">4</a>
+            <div class="short__post">
+                <a href="https://itnext.io/change-svg-color-with-help-from-css-filter-d978fb0d0bc9">Change SVG Color with Help from CSS Filter</a>
             </div>
         </div>
+       
     </div>
+    <!-- post video -->
+    <div class="post_between_lines ">
+        <h3 id="front">Intresting to see..</h3>
+        <div class="post_between_lines_content">
+            <span class="fr-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/h6Xi9fdDAv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </span>
+        
+        </div>
+       
+    </div>
+  
+    <!-- related -->
+    <div class="releated">
+        <div  class="post__subtitle">
+            Intresting to read
+        </div>
+        <ul class="releted__list">
+            <li class="releted__list-item">
+                <h4 class="releted__list-title"><a href="#">How i visited Frontend conference and outher interestings events </a></h4>
+                <time class="releted__list-date" datetime="2022-10-21">01.06.2022</time>
+            </li>
+            <li class="releted__list-item">
+                <h4 class="releted__list-title"><a href="#">How i visited JS conference  and outher interestings events</a></h4>
+                <time class="releted__list-date" datetime="2022-10-21">21.10.2022</time>
+            </li>
+            <li class="releted__list-item">
+                <h4 class="releted__list-title"><a href="#">How i visited Python conference and outher interestings events </a></h4>
+                <time class="releted__list-date" datetime="2022-10-21">11.08.2022</time>
+            </li>
+            <li class="releted__list-item">
+                <h4 class="releted__list-title"><a href="#">How i visited Backend conference and outher interestings events </a></h4>
+                <time class="releted__list-date" datetime="2022-10-21">1.10.2022</time>
+            </li>
+           
+        </ul>
+
+    </div>
+     <!-- related -->
+
+     <!-- post comments  -->
+     <div class="post__comments">
+        <h3 class="post__subtitle"> Comments</h3>
+        <form class="form" action="/">
+            <div class="form__group">
+                <textarea class="form__control form__control--textarea" name="comment-text" placeholder="Text of comments" id="" ></textarea>
+                <span class="form__line"></span>
+            </div>
+            
+            <button class="btn btn--blue btn--rounded btn--sm" type="submit">Send</button>
+
+        </form>
+
+     </div>
+
+     <!-- post comments  -->
+     <ul class="comments">
+        <li class="comments__item">
+            <div class="comments__header">
+                <img class="comments__avatar" src="https://via.placeholder.com/30" alt="">
+                <div class="comments__author">
+                    <div class="comments__name">
+                        Roman Burlaka
+                    </div>
+                    <time class="comments__pubdate" datetime="2022-10-30 17:23">1 week ago</time>
+                </div>
+               
+
+            </div>
+            <div class="comments__text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, quia ea, illum voluptas fuga similique earum sequi, tempore delectus necessitatibus incidunt maxime cumque!
+            </div>
+           <button class="comments__reply" type="button">Response..</button>
+           <!-- 2 comments -->
+           <ul class="comments">
+            <li class="comments__item">
+                <div class="comments__header">
+                    <img class="comments__avatar" src="https://via.placeholder.com/30" alt="">
+                    <div class="comments__author">
+                        <div class="comments__name">
+                            Roman Burlaka
+                        </div>
+                        <time class="comments__pubdate" datetime="2022-10-30 17:23">1 week ago</time>
+                    </div>
+                   
+    
+                </div>
+                <div class="comments__text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, quia ea, illum voluptas fuga similique earum sequi, tempore delectus necessitatibus incidunt maxime cumque!
+                </div>
+               <button class="comments__reply" type="button">Response..</button>
+            </li>
+         </ul>
+        </li>
+     </ul>
+
+      <!-- comments  -->
+
+       <!-- /post comments  -->
+
+
 
 </article>
 <!-- Post -->
