@@ -1,0 +1,52 @@
+---
+layout: default
+title: Profile
+---
+
+<h1 class="page__title">Profile</h1>
+<div class="profile-user">
+    <div class="profile-user__form">
+        <form action="/" method="post" class="form">
+            <!-- form__group 1 -->
+            <div class="form__group form__group--md">
+                <input class="form__control" type="text" placeholder="Your name" value="Robert Lewandowski">
+                <span class="form__line"></span>
+            </div>
+             <!-- form__group 2 -->
+            <div class="form__group form__group--md">
+                <input class="form__control" type="email" placeholder="Your email" value="r_lewandowski@gmail.com">
+                <span class="form__line"></span>
+            </div>
+               <!-- form__group 3 -->
+               <div class="form__group form__group--md">
+                <input class="form__control" type="password" placeholder="Your password">
+                <span class="form__line"></span>
+            </div>
+               <!-- form__group 4 -->
+               <div class="form__group form__group--md">
+                <input class="form__control" type="password" placeholder="Confirm  pasword">
+                <span class="form__line"></span>
+            </div>
+            <button class="btn btn--blue btn--rounded btn--sm" type="button">Submit</button>
+            <div class="form__footer form__footer--center">
+                <div class="form__group form__group--sd">
+                    <ul class="form__footer-list">
+                        <li><a class="form__footer-link" href="signin.html">Enter</a></li>
+                        <li><a class="form__footer-link" href="resset.html">Forget password? & Resset</a></li>
+                   </ul>
+                   
+                </div>
+                
+             </div>
+        </form>
+    </div>
+    <div class="profile-user__avatar">
+        <img src="https://via.placeholder.com/150" alt="img">
+        <label class="profile-user__file"  for="file-user">
+            <input type="file" id="file-user">
+            Chose file
+           
+        </label>
+
+    </div>
+</div>

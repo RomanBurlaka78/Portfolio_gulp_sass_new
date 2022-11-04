@@ -1,0 +1,31 @@
+.profile-user {
+    display: flex;
+    gap: 10rem;
+    &__form {
+        width: 34rem;
+       
+    }
+   
+    &__avatar {
+        flex-grow: 1;
+        margin-bottom: 1.5rem;
+        img {
+            display: block;
+        }
+    }
+    &__file {
+        font-size: 1.4rem;
+        color: $blue;
+        text-decoration: underline;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: none;
+        }
+       
+        input {
+            display: none;
+        }
+    }
+
+}
