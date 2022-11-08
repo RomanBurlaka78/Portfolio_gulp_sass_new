@@ -15,14 +15,16 @@
     font-family: inherit;
     text-decoration: none;
     transition:background-color .2s linear;
-    &:hover {
+    &:hover,
+    &:focus {
         text-decoration: none;
     }
 
     &--red {
         background-color: $red;
         box-shadow: 0 7px 17px -10px rgba($red, $alpha: .3) ;
-        &:hover {
+        &:hover,
+        &:focus  {
             background-color: darken($red, 15%);
         }
     }
@@ -30,7 +32,8 @@
     &--blue {
         background-color: $blue;
         box-shadow: 0 7px 17px -10px rgba($blue, $alpha: .3) ;
-        &:hover {
+        &:hover,
+        &:focus  {
             background-color: darken($blue, 15%);
         }
     }
