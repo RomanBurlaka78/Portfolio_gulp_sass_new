@@ -9,6 +9,21 @@
     width: 100%;
     background-color: rgba($black, 0.8);
     z-index: 1010;
+    padding: 1rem;
+
+    &--share {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba($black, 0.8);
+        z-index: 1010;
+        padding: 1rem;
+    }
 
     &__content {
         max-width: 500px;
@@ -54,4 +69,15 @@
     }
 
 
+}
+
+//share-modal
+.social__wrapper {
+    padding-bottom: 3rem;
+}
+
+//story-modal
+
+#story-frame {
+    
 }

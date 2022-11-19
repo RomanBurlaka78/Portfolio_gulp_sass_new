@@ -7,16 +7,22 @@
     box-shadow: 0 4px 4px rgba($color: #000000, $alpha: .25);
     background-color: $primary;
     border-radius: 5px;
+    
 
 }
-.add-post__form {
+.add-post__form-actions {
+    
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     
 }
 .add-post__textarea {
-    // font-family: inherit;
-    width: 70%;
+    display: block;
+    display: flex;
+    flex-grow: 1;
+    font-family: inherit;
+    overflow: hidden;
+    // width: 70%;
     border: none;
     background: transparent;
     font-size: 1.5rem;
@@ -49,7 +55,9 @@
 }
 .add-post__form-actions {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    width: 120px;
+   
 }
 .add-post-file {
     display: block;
@@ -64,8 +72,9 @@
        
     // }
     
-    input {
-        display: none;
-    }
+   
 
+}
+#add-post-file {
+    display: none;
 }

@@ -1,24 +1,28 @@
-// const { active } = require("browser-sync");
+//  Burger Toggle menu
 
-// function burgerMenu() {
-//     const burger = document.querySelector('.burger');
-//     const  menu = document.querySelector('.menu');
-//     const body = document.querySelector('body');
-
-//     burger.addEventListener('click', ()=> {
-//        if(menu.classList.add('active')) {
-//             burger.classList.add('active-burger');
-//         body.classList.add('locked');
-//        } else {
-//            menu.classList.remove(active);
-//            burger.classList.remove(active-burger);
+const burger = document.querySelector('.burger');
+const navBarNav = document.querySelector('.nav_list');
+const navLink = document.querySelectorAll('.nav_link');
+const body = document.querySelector('body');
 
 
-//     }
+burger.addEventListener('click', ()=> {
+  
+    burger.classList.toggle('active');
+    navBarNav.classList.toggle('active');
+    body.classList.toggle('locked')
    
+   
+})
+navLink.forEach((item)=> {
+    item.addEventListener('click', ()=> {
+      console.log(item.innerHTML);
+        burger.classList.remove('active');
+        navBarNav.classList.remove('active');
+        body.classList.remove('locked')
+       
+    })
 
-//     }
-    
-//     )
+})
 
-// }
+

@@ -1,10 +1,12 @@
 @import "vendor/reset";
 @import "vars";
+@import "mixins";
 @import "blocks/page";
 @import "blocks/header";
 @import "blocks/sidebar";
 @import "blocks/main";
 @import "blocks/container";
+@import "blocks/burger";
 @import "blocks/profile";
 @import "blocks/social";
 @import "blocks/btn";
@@ -35,6 +37,7 @@ body {
     color: $white;
     line-height: 1.5;
     
+    
 }
 .no-scroll {
     overflow: hidden;
@@ -44,6 +47,7 @@ body {
 *:before,
 *:after {
     box-sizing: border-box;
+    
 }
 a {
     text-decoration: none;
@@ -51,8 +55,14 @@ a {
         text-decoration: underline;
     }
 }
+img {
+    max-width: 100%;
+}
 .hide {
     display: none;
+}
+.locked {
+    overflow: hidden;
 }
 
 

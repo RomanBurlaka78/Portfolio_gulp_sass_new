@@ -6,6 +6,15 @@
     top: 0;
     left: 300px;
     z-index: $z-index-header;
+
+    @include breakpoint ($tablet-bp) {
+       width: 100%;
+       margin: 0 auto;
+       position: unset;
+       overflow: hidden;
+    }
+    
+  
    
 }
 .header_left {
@@ -15,9 +24,19 @@
         color: $white;
         position: relative;
     }
+    
+    
 }
 .header_right {
     display: flex;
     width: 40%;
     justify-content: flex-end;
+
+    @include breakpoint ($tablet-bp) {
+        width: 96%; 
+     }
 }
+
+// burger
+//
+    
