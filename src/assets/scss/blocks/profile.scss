@@ -11,6 +11,25 @@
     margin-bottom: 2rem;
    
 }
+
+.profile_avatar--mobile {
+    display: none;
+    max-width: 2rem;
+    height: 3rem;
+    top: 10px;
+    margin-left: 2rem;
+    position: relative;
+    display: none;
+   &--span {
+    position: absolute;
+    display: block;
+    left: 5rem;
+    top: 1rem;
+    // z-index: 1003;
+    display: none;
+   }
+    // height: auto;
+}
 .profile_name {
     font-size: 1.8rem;
     text-align: center;

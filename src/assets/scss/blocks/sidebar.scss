@@ -26,15 +26,19 @@
 .sidebar__content {
     // position: relative;
     padding: 0 2rem ;
-    margin: -4rem;
+    margin: -6rem;
 }
 
 .sidebar__footer {
-  margin-top: 6rem;
+  margin-top: 6.5rem;
     display: flex;
     justify-content:space-around;
 }
 
+
+.sidebar--show {
+    display: block;
+}
 // @media  (max-width:700px) {
 //     .sidebar {
 //         display: none;

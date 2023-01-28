@@ -10,7 +10,7 @@
             top: 0;
             gap: 0;
             flex-direction: column;
-            background-color: #333;
+            background-color: $dark-menu;
             color: white;
             width: 100%;
             height: 100vh;
@@ -18,6 +18,7 @@
             text-align: center;
             transition: 0.5s;
             z-index: 1;
+            justify-content: center;
          &.active {
             left: 0;  
             justify-content: center;
@@ -49,6 +50,9 @@
 
 }
 
+.show {
+    display: block;
+}
 
 // .nav {
     //     @include breakpoint ($tablet-bp) {

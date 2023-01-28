@@ -3,6 +3,7 @@
     position: fixed;
     width: calc(100% - #{$sidebar-width});
     background-color: $primary;
+    justify-content: space-between;
     top: 0;
     left: 300px;
     z-index: $z-index-header;
@@ -13,7 +14,35 @@
        position: unset;
        overflow: hidden;
     }
+
+  
+        &__avatar {
+            display: block;
+            max-width: 35px;
+            max-height: 35px;
+            border-radius: 50%;
+            display: flex;
+            padding-top: 3px;
+            &:hover {
+                cursor: pointer;
+            }
     
+        }
+    
+
+ 
+
+    @media(min-width:991px) {
+        &__avatar {
+            display: none;
+            
+    
+        }
+    
+
+    }
+   
+  
   
    
 }
@@ -34,6 +63,7 @@
 
     @include breakpoint ($tablet-bp) {
         width: 96%; 
+        
      }
 }
 

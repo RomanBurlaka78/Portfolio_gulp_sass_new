@@ -6,7 +6,19 @@
     background-color:transparent;
     text-align: center;
     margin-bottom: 3rem;
-   
+    @include breakpoint ($tablet-bp) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      
+        
+     }
+
+     @include breakpoint ($tablet-bp) {
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 19.9rem 19.9rem;
+        grid-gap: 1.3rem;
+      
+        
+     }
     
     .stories__item:hover {
         opacity: 0.7;
